@@ -1,15 +1,22 @@
 {
-  "versionName": "0.7.0-beta",
-  "versionCode": 11,
-  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.7.0-beta",
+  "versionName": "0.8.0-beta",
+  "versionCode": 12,
+  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.8.0-beta",
+  "notes": [
+    "The chemistry, math, units and shorthand lists are real rules now, each under its own tab on the Aliases tab.",
+    "Rules that can never fire are named under the grid.",
+    "Updates have a tab of their own, with the change history and the version that is waiting.",
+    "Tick as many voices as you like and Install works through them one at a time.",
+    "Empty boxes say in grey what they are for."
+  ],
   "setup": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.7.0-beta/TtsUtilWin-0.7.0-beta-setup.zip",
-    "bytes": 75146790,
-    "sha256": "1781df9008a6a42773d85ce98630705e4d7ea30e669ea2b36db1c680f61425d7"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.8.0-beta/TtsUtilWin-0.8.0-beta-setup.zip",
+    "bytes": 75158018,
+    "sha256": "cfb1aedeb784c9cd63b38b70cf9996320cbd9aef20c86f41ae08c222c21b0acc"
   },
   "portable": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.7.0-beta/TtsUtilWin-0.7.0-beta-portable.zip",
-    "bytes": 75318850,
-    "sha256": "48f2a89729a79cc2427d8974d01f9413a4a2dd08da69a90e13325129568c3a96"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.8.0-beta/TtsUtilWin-0.8.0-beta-portable.zip",
+    "bytes": 75331745,
+    "sha256": "9e739baf121e78650e3321f5d58e5b1963e38d67e3d02f8d093ee86b398e0f1e"
   }
 }
