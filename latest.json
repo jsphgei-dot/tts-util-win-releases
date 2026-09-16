@@ -1,22 +1,21 @@
 {
-  "versionName": "0.9.0-beta",
-  "versionCode": 13,
-  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.9.0-beta",
+  "versionName": "0.9.1",
+  "versionCode": 14,
+  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.9.1",
   "notes": [
-    "Alias rules save as a ruleset of your own, ticked back in beside the lists that ship.",
-    "A rule you changed stays yours when the list that brought it is unticked.",
-    "Rules that can never fire show in red in the grid.",
-    "Reset aliases on the Settings tab, keeping the old list as aliases.json.bak.",
-    "Install update on the Updates tab takes the version the last check found."
+    "The installer names the three Microsoft voices Windows already has, ticked and greyed out.",
+    "No voice model has to be downloaded, and both READMEs say so.",
+    "The plus on the Text tab stays in view, so tabs can be added one after another.",
+    "A finished file makes one sound instead of two."
   ],
   "setup": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.0-beta/TtsUtilWin-0.9.0-beta-setup.zip",
-    "bytes": 75164937,
-    "sha256": "7483b86dea4c6164e24c934b8c0c2e6057be5ad46e80f6151ad3077afbad49bc"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.1/TtsUtilWin-0.9.1-setup.zip",
+    "bytes": 75164047,
+    "sha256": "d6115e51dc5945bd7be959d0527f6461544a22a4087090d1e34d7dcb0ce673a4"
   },
   "portable": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.0-beta/TtsUtilWin-0.9.0-beta-portable.zip",
-    "bytes": 75335930,
-    "sha256": "a7159f13ec3c46185ff4acdb6b6f04c64b95bf5e7b484c4245500c09b82ef005"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.1/TtsUtilWin-0.9.1-portable.zip",
+    "bytes": 75336597,
+    "sha256": "fd507461b39955e3cf2067abc713366f4ac8b2913d222978cc72317bc3912b5b"
   }
 }
