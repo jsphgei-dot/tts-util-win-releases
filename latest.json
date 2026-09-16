@@ -1,21 +1,15 @@
 {
-  "versionName": "0.9.2",
-  "versionCode": 15,
-  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.9.2",
-  "notes": [
-    "Ctrl+Shift+S writes the open text to audio.",
-    "The update prompt box now turns off every update dialog, not only the one at startup.",
-    "The Name this script window fits its buttons and can be resized.",
-    "The Aliases tab keeps its grid at a usable height and scrolls when the window is short."
-  ],
+  "versionName": "0.10.0-beta",
+  "versionCode": 16,
+  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.10.0-beta",
   "setup": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.2/TtsUtilWin-0.9.2-setup.zip",
-    "bytes": 75165067,
-    "sha256": "6f98bf65bb6c87b6b23ecf14ce96883e5d0c0692f3498d96f155f8c880a3eec0"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.10.0-beta/TtsUtilWin-0.10.0-beta-setup.zip",
+    "bytes": 75173618,
+    "sha256": "3a32fcbdb6a3037fbed5881df429725ea961c0d956afb883a178c5411e2e33da"
   },
   "portable": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.2/TtsUtilWin-0.9.2-portable.zip",
-    "bytes": 75337080,
-    "sha256": "0c5e1545f50eb2b193d319ea64776e3fb33d1989ed3b7867bedb85c1284dfdbe"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.10.0-beta/TtsUtilWin-0.10.0-beta-portable.zip",
+    "bytes": 75344482,
+    "sha256": "fe256d59564fb06127e6312f6ec62b4f063997c45365fdffd7def35977ef4421"
   }
 }
