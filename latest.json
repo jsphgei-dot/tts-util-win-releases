@@ -1,21 +1,21 @@
 {
-  "versionName": "0.9.1",
-  "versionCode": 14,
-  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.9.1",
+  "versionName": "0.9.2",
+  "versionCode": 15,
+  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.9.2",
   "notes": [
-    "The installer names the three Microsoft voices Windows already has, ticked and greyed out.",
-    "No voice model has to be downloaded, and both READMEs say so.",
-    "The plus on the Text tab stays in view, so tabs can be added one after another.",
-    "A finished file makes one sound instead of two."
+    "Ctrl+Shift+S writes the open text to audio.",
+    "The update prompt box now turns off every update dialog, not only the one at startup.",
+    "The Name this script window fits its buttons and can be resized.",
+    "The Aliases tab keeps its grid at a usable height and scrolls when the window is short."
   ],
   "setup": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.1/TtsUtilWin-0.9.1-setup.zip",
-    "bytes": 75164047,
-    "sha256": "d6115e51dc5945bd7be959d0527f6461544a22a4087090d1e34d7dcb0ce673a4"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.2/TtsUtilWin-0.9.2-setup.zip",
+    "bytes": 75165067,
+    "sha256": "6f98bf65bb6c87b6b23ecf14ce96883e5d0c0692f3498d96f155f8c880a3eec0"
   },
   "portable": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.1/TtsUtilWin-0.9.1-portable.zip",
-    "bytes": 75336597,
-    "sha256": "fd507461b39955e3cf2067abc713366f4ac8b2913d222978cc72317bc3912b5b"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.2/TtsUtilWin-0.9.2-portable.zip",
+    "bytes": 75337080,
+    "sha256": "0c5e1545f50eb2b193d319ea64776e3fb33d1989ed3b7867bedb85c1284dfdbe"
   }
 }
