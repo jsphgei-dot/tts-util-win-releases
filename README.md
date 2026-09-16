@@ -1,6 +1,6 @@
 ﻿# TTS Util Win
 
-[![Version](https://img.shields.io/badge/version-0.8.0--beta-blue.svg)](https://github.com/jsphgei-dot/tts-util-win-releases/releases/latest)
+[![Version](https://img.shields.io/badge/version-0.9.0--beta-blue.svg)](https://github.com/jsphgei-dot/tts-util-win-releases/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-green.svg)](#requirements)
 [![License](https://img.shields.io/badge/license-Apache%202.0-lightgrey.svg)](LICENSE)
 
@@ -44,11 +44,12 @@ be sure of what you have.
 The program asks this repository at each start whether a newer release exists, by reading
 `latest.json`. Nothing is sent: no identifier, no text, no telemetry. A newer version waits on
 the **Updates** tab, which wears a red exclamation mark, names the version and lists what
-changed in it. Nothing interrupts what you were doing unless you ask it to, with the box **Ask
-about a new version in a dialog at startup**. From there an installed copy can offer to
-download the installer and run it, after checking the download against its published hash, and
-a portable copy is given the link and left to unpack it where it likes. The whole check can be
-switched off on the same tab, where **Check now** also looks on demand.
+changed in it. Nothing interrupts what you were doing unless you ask it to, with the box
+**Update prompt popup box on startup**. **Install update**, beside **Check now**, takes the
+version the last check found at any time: an installed copy downloads the installer and runs
+it, after checking the download against its published hash, and a portable copy is given the
+link and left to unpack it where it likes. The whole check can be switched off on the same tab,
+where **Check now** also looks on demand.
 
 ## 📜 History
 

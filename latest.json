@@ -1,22 +1,22 @@
 {
-  "versionName": "0.8.0-beta",
-  "versionCode": 12,
-  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.8.0-beta",
+  "versionName": "0.9.0-beta",
+  "versionCode": 13,
+  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.9.0-beta",
   "notes": [
-    "The chemistry, math, units and shorthand lists are real rules now, each under its own tab on the Aliases tab.",
-    "Rules that can never fire are named under the grid.",
-    "Updates have a tab of their own, with the change history and the version that is waiting.",
-    "Tick as many voices as you like and Install works through them one at a time.",
-    "Empty boxes say in grey what they are for."
+    "Alias rules save as a ruleset of your own, ticked back in beside the lists that ship.",
+    "A rule you changed stays yours when the list that brought it is unticked.",
+    "Rules that can never fire show in red in the grid.",
+    "Reset aliases on the Settings tab, keeping the old list as aliases.json.bak.",
+    "Install update on the Updates tab takes the version the last check found."
   ],
   "setup": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.8.0-beta/TtsUtilWin-0.8.0-beta-setup.zip",
-    "bytes": 75158018,
-    "sha256": "cfb1aedeb784c9cd63b38b70cf9996320cbd9aef20c86f41ae08c222c21b0acc"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.0-beta/TtsUtilWin-0.9.0-beta-setup.zip",
+    "bytes": 75164937,
+    "sha256": "7483b86dea4c6164e24c934b8c0c2e6057be5ad46e80f6151ad3077afbad49bc"
   },
   "portable": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.8.0-beta/TtsUtilWin-0.8.0-beta-portable.zip",
-    "bytes": 75331745,
-    "sha256": "9e739baf121e78650e3321f5d58e5b1963e38d67e3d02f8d093ee86b398e0f1e"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.9.0-beta/TtsUtilWin-0.9.0-beta-portable.zip",
+    "bytes": 75335930,
+    "sha256": "a7159f13ec3c46185ff4acdb6b6f04c64b95bf5e7b484c4245500c09b82ef005"
   }
 }
