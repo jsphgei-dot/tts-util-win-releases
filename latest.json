@@ -1,15 +1,15 @@
 {
-  "versionName": "0.10.1-beta",
-  "versionCode": 17,
-  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.10.1-beta",
+  "versionName": "0.11.0-beta",
+  "versionCode": 18,
+  "releaseUrl": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/tag/v0.11.0-beta",
   "setup": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.10.1-beta/TtsUtilWin-0.10.1-beta-setup.zip",
-    "bytes": 75173062,
-    "sha256": "ec8e7b46e4fedab8fb82b660486d7c7d23f9b326872845a6d375098d1763b2ec"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.11.0-beta/TtsUtilWin-0.11.0-beta-setup.zip",
+    "bytes": 75177589,
+    "sha256": "fff7d35ec5959e6ab574cef5fcb3c30237829d7b69a0d600c9efeee430733eae"
   },
   "portable": {
-    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.10.1-beta/TtsUtilWin-0.10.1-beta-portable.zip",
-    "bytes": 75344952,
-    "sha256": "63a24380b69ccd1a6966de8f77f17bcdcf4099a846daeccc7d06eff4c0e12f97"
+    "url": "https://github.com/jsphgei-dot/tts-util-win-releases/releases/download/v0.11.0-beta/TtsUtilWin-0.11.0-beta-portable.zip",
+    "bytes": 75349170,
+    "sha256": "e46bd7648d3f12d5894f1db7d096431dcf69859dfcb7ddd5c24ae94c1a66ee57"
   }
 }
