@@ -1,6 +1,49 @@
 ﻿# Changelog
 
-Newest first. Version codes are monotonic and never reused.
+Newest first. Version codes are monotonic and never reused. The top section carries what is
+built but not yet released, and the release step renames it to the version going out.
+
+## 0.12.0-beta (version code 19)
+
+* **One repository from here on.** The source repository is public, and it is now also where
+  the downloads, the changelog and the issue tracker live. The separate distribution
+  repository was always a temporary arrangement while the source was still private, and it is
+  archived rather than deleted, so every build published there stays downloadable. This copy
+  looks for its updates at the new address. An older copy is offered this release at the old
+  one, and asks the new address afterward.
+* **The program now runs on Windows 10 version 1607.** The floor was 1809, and the installer
+  asked for no more than Windows 10 of any build, so it would install on versions the program
+  then failed on. Both now say 1607, which is as low as the runtime goes. On builds before
+  1709 the voices Windows already has read at their own speed, the only part of the program
+  that old a Windows cannot do.
+* **Synthesis threads now work themselves out from the processor.** The setting starts empty,
+  and an empty setting means half the processors this machine reports, at least one and at most
+  four. A machine with 32 processors or more allows eight, and the 32 bit build doubles whichever
+  of those applies. Typing a number from 1 to 16 still overrides it. The old fixed default of two
+  left most machines slower than they needed to be.
+* **Every setting explains itself on hover.** The controls on the Settings tab carry the same
+  one line descriptions the rest of the window has. The question marks beside them still open
+  the longer explanation.
+* **The program now runs on .NET 10.** The runtime it is built on moved from .NET 6, which
+  reached its end of support, to the current long term support release. Nothing changes in
+  what the program does. The download is about 5 MB larger.
+* **Builds for ARM64 and 32 bit Windows.** Alongside the x64 build there are now
+  native ARM64 and x86 ones, each with its own installer and its own speech engine rather
+  than an emulated one. They are downloads from the release page; the in app update check
+  still offers the x64 build.
+* **The text tabs size themselves like a browser's.** One tab on its own is 180 pixels wide,
+  more tabs share the strip evenly down to 80 pixels each, and a name too long for the space
+  ends in an ellipsis with the whole name on hover. The name sits at the left of its tab and
+  the cross at the right edge, at every width, rather than the pair sitting adrift in the
+  middle of a wide tab. Past that the strip scrolls as before. A new tab takes its
+  share straight away, and the widths then hold while the pointer is anywhere on the tab row, so
+  closing several in a row does not move the next cross out from under it. They catch up the moment
+  the pointer leaves that row.
+* **The save icon moved to the left** of the row above the text, ahead of the title box, rather
+  than sitting at the far right of the window.
+* **The script list says what voice each script uses.** A **Voice** column beside the title
+  shows the voice a script was saved with. Scripts saved before the voice was recorded, or
+  dropped into the folder by hand, read **Not saved** until they are saved again.
 
 ## 0.11.0-beta (version code 18)
 

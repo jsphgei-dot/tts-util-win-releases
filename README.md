@@ -1,18 +1,30 @@
 ﻿# TTS Util Win
 
-[![Version](https://img.shields.io/badge/version-0.11.0--beta-blue.svg)](https://github.com/jsphgei-dot/tts-util-win-releases/releases/latest)
+[![Version](https://img.shields.io/badge/version-0.12.0--beta-blue.svg)](https://github.com/jsphgei-dot/tts-util-win/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-green.svg)](#requirements)
 [![License](https://img.shields.io/badge/license-Apache%202.0-lightgrey.svg)](LICENSE)
 
-> Reads text aloud on Windows, offline. Downloads for the program live here.
+> Reads text aloud on Windows, offline.
 
-This repository carries the **downloads** for TTS Util Win, the version manifest the program
-reads when it looks for updates, and the change history. The program speaks locally with
-sherpa-onnx voice models: no account, no key, no text leaving the machine.
+## 📦 This repository is retired
+
+It carried the downloads while the source repository was still private, which was always meant
+to be temporary, and it lasted only as long as it took to settle what the source repository
+should look like in public. Both now live in one place:
+
+**[jsphgei-dot/tts-util-win](https://github.com/jsphgei-dot/tts-util-win)**, which has the
+source, the releases, the changelog and the issue tracker.
+
+Nothing new is published here. The releases already on this page stay exactly where they are,
+so a copy built before 0.12.0-beta keeps finding the manifest and the downloads it was told to
+look for, and updates itself one last time into a copy that asks the new address.
+
+The program speaks locally with sherpa-onnx voice models: no account, no key, no text leaving
+the machine.
 
 ## ⬇️ Download
 
-Take the newest build from [Releases](https://github.com/jsphgei-dot/tts-util-win-releases/releases/latest).
+Take the newest build from [Releases](https://github.com/jsphgei-dot/tts-util-win/releases/latest).
 
 | Download | For |
 | --- | --- |
@@ -24,8 +36,40 @@ program refuses any update download whose hash does not match.
 
 ### Requirements
 
-Windows 10 version 1809 or newer, x64. The executable is self contained, so no runtime needs
+Windows 10 version 1607 or newer, x64. The executable is self contained, so no runtime needs
 installing.
+
+| | Minimum | Recommended |
+| --- | --- | --- |
+| Windows | 10 version 1607 | 11, or 10 22H2 |
+| Processor | two cores | four cores or more |
+| Memory | 4 GB | 8 GB |
+| Free disk | 250 MB for the program | that, plus 60 to 300 MB for each neural voice |
+| Audio | any output device, or none at all if you only write files | |
+
+The minimum column is what runs: the Windows voices, the smaller neural voices, and reading
+along with the text on screen. The recommended column is what keeps the heaviest neural voice
+comfortably ahead of playback and makes writing an MP3 of a long script quick rather than
+something to walk away from.
+
+Speed, measured on one desktop machine (eight cores, sixteen threads), in seconds of speech
+produced per second of work:
+
+| Voice | 1 thread | 2 | 4 | 8 |
+| --- | --- | --- | --- | --- |
+| kokoro, the heaviest offered | 1.4x | 2.4x | 3.7x | 4.3x |
+| piper ljspeech high | 1.7x | 3.1x | 5.1x | 6.8x |
+| piper libritts_r medium | 13.6x | 22.7x | 32.4x | 35.5x |
+
+Anything above 1.0x keeps ahead of playback, so on a slower machine the question is how long
+writing a file takes rather than whether reading aloud keeps up. Four threads is most of what
+eight gives, which is why the automatic count stops there.
+
+**Synthesis threads** on the Settings tab is what to reach for on either end of that. Left
+empty it works the count out from the processors this machine reports, and it can be set by
+hand anywhere from 1 to 16. It belongs to the downloaded voices only. The Windows voices are
+rendered by Windows itself, hundreds of times faster than playback on the same machine, and
+nothing in this section applies to them.
 
 No voice model has to be downloaded. The three Microsoft voices that come with Windows,
 Microsoft David, Microsoft Zira and Microsoft Mark, work with the program as they are, and the
@@ -46,8 +90,9 @@ be sure of what you have.
 
 ## 🔄 Updates
 
-The program asks this repository at each start whether a newer release exists, by reading
-`latest.json`. Nothing is sent: no identifier, no text, no telemetry. A newer version waits on
+The program asks at each start whether a newer release exists, by reading `latest.json`. A
+copy built before 0.12.0-beta asks this repository, where the answer is frozen at 0.12.0-beta,
+and every copy from 0.12.0-beta onward asks the repository above. Nothing is sent: no identifier, no text, no telemetry. A newer version waits on
 the **Updates** tab, which wears a red exclamation mark, names the version and lists what
 changed in it. Nothing interrupts what you were doing unless you ask it to, with the box
 **Update prompt popup box on startup**, and while that box is off no update dialog opens
@@ -65,8 +110,8 @@ before this repository existed.
 ## 🐛 Issues and suggestions
 
 Bug reports and voice suggestions belong in
-[Issues](https://github.com/jsphgei-dot/tts-util-win-releases/issues). A report that names the
-voice, the setting and the text that misbehaved is worth a great deal.
+[Issues](https://github.com/jsphgei-dot/tts-util-win/issues), on the repository above. The
+tracker here is closed along with the rest of it.
 
 ## 🤖 How it was made
 
